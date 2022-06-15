@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/adirut/go/src/github.com/spicysquid168/solidity-playground'
+make: Leaving directory `/Users/adirut/go/src/github.com/spicysquid168/solidity-playground'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
