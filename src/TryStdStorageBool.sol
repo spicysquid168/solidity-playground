@@ -4,7 +4,7 @@ pragma solidity 0.8.13;
 import { Test, stdStorage, StdStorage } from "forge-std/Test.sol";
 import { console } from "forge-std/console.sol";
 
-contract TrySetStorageBool is Test {
+contract TryStdStorageBool is Test {
   using stdStorage for StdStorage;
 
   struct AccountInfo {
