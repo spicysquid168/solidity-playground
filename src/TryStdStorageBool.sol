@@ -4,6 +4,8 @@ pragma solidity 0.8.13;
 import { Test, stdStorage, StdStorage } from "forge-std/Test.sol";
 import { console } from "forge-std/console.sol";
 
+// Try to use stdStorage with bool within a map struct, stdStorage failed to find the slot. 
+// Run with "forge script ./src/TryStdStorageBool.sol -vvv"
 contract TryStdStorageBool is Test {
   using stdStorage for StdStorage;
 
